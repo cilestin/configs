@@ -1,0 +1,10 @@
+alias ls='ls -G'
+alias la='ls -A'
+alias ll='ls -lh'
+alias lla='ls -lhA'
+
+alias j='jump'
+
+alias BE='bundle exec'
+alias BES='bundle exec spring'
+alias BETS='bundle exec time spring'
