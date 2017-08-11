@@ -11,6 +11,7 @@
 	co = checkout
 	b = branch
 	ba = branch -a
-        rb = rebase
+	rb = rebase
+	grepnospec = !git grep "$@" -- "./*" ":!spec/**" #
 [pull]
 	rebase = true
