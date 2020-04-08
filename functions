@@ -1,0 +1,15 @@
+function gin {
+  git grep -Ini --break --heading $1 -- './*' ':!spec/*' ':!*.js*' ':!*.css*' ':!*.json*'
+}
+
+function gins {
+  git grep -Ini --break --heading $1 -- './*' ':!*.js*' ':!*.css*' ':!*.json*'
+}
+
+function ginjs {
+  git grep -Ini --break --heading $1
+}
+
+function ginf {
+  git grep -Ini --count $1
+}
