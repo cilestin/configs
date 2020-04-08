@@ -12,6 +12,6 @@
 	b = branch
 	ba = branch -a
 	rb = rebase
-	grepnospec = !git grep "$@" -- "./*" ":!spec/**" #
+	grepnospec = !git grep "$@" -- "./*" ":!spec/**" ":!*.js" ":!*.css" #
 [pull]
 	rebase = true
