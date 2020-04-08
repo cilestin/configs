@@ -8,3 +8,8 @@ alias j='jump'
 alias BE='bundle exec'
 alias BES='bundle exec spring'
 alias BETS='bundle exec time spring'
+
+alias DCE='docker-compose exec --env COLUMNS=`tput cols` --env LINES=`tput lines`'
+alias DCL='docker-compose logs --tail=50 -f'
+
+alias MT='multitail -D -n 5000 -M 5000 -cT ansi'
